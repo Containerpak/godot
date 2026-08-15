@@ -1,0 +1,8 @@
+[Desktop Entry]
+Type=Application
+Name=Godot Engine
+Comment=Create 2D and 3D games.
+Exec=godot --editor %F
+Icon=godot
+Terminal=false
+Categories=Development;IDE;Game;
