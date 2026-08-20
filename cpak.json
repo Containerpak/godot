@@ -3,7 +3,7 @@
   "manifest_version": "2.0",
   "name": "Godot Engine",
   "description": "Create 2D and 3D games.",
-  "version": "4.7.1",
+  "version": "4.7.2",
   "image": "ghcr.io/containerpak/godot:main",
   "binaries": [
     "/usr/bin/godot"

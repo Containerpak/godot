@@ -1,12 +1,12 @@
 FROM ubuntu:26.04 AS source
 
-ADD --checksum=sha256:c7ff14fd28472c8d4f193043de30278dcf7e5241a1dcf7566b02e27addaa33ba https://github.com/godotengine/godot/releases/download/4.7.1-stable/Godot_v4.7.1-stable_linux.x86_64.zip /tmp/app.zip
+ADD --checksum=sha256:cadd3204e728a35d3f13adb7fd0d7902636b79f6b95c40c265eb73b6c35329e4 https://github.com/godotengine/godot/releases/download/4.7.2-stable/Godot_v4.7.2-stable_linux.x86_64.zip /tmp/app.zip
 
 RUN apt-get update && \
     apt-get install -y --no-install-recommends unzip && \
     mkdir -p /out && \
     unzip -q /tmp/app.zip -d /out && \
-    mv /out/Godot_v4.7.1-stable_linux.x86_64 /out/godot
+    mv /out/Godot_v4.7.2-stable_linux.x86_64 /out/godot
 
 FROM ghcr.io/containerpak/gtk3:main
 
