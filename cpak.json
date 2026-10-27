@@ -4,7 +4,7 @@
   "name": "Godot Engine",
   "description": "Create 2D and 3D games.",
   "version": "4.7.2",
-  "image": "ghcr.io/containerpak/godot@sha256:9b5f3f7cdb8ca4f20695c9be8e728d1a72512b4b4a70155211cb7d643b7d1972",
+  "image": "ghcr.io/containerpak/godot@sha256:366d1f166977b63a232e6ac70da88fb581c675ec4a9d44559b507f9f542861e8",
   "binaries": [
     "/usr/bin/godot"
   ],
